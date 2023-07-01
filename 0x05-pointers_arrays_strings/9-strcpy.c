@@ -1,13 +1,11 @@
-#include<stdio.h>
 #include "main.h"
 
 /**
- *_strcpy - update value.
- *@dest: value to be evaluate.
- *@src: value to be evaluate.
- *Return: not.
+ * char *_strcpy - a function that copies the string pointed to by src
+ * @dest: copy to
+ * @src: copy from
+ * Return: string
  */
-
 char *_strcpy(char *dest, char *src)
 {
 	int l = 0;
